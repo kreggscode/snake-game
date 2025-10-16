@@ -10,8 +10,8 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/background_medium"
-        android:elevation="4dp"
+        android:background="@drawable/toolbar_background"
+        android:elevation="8dp"
         app:title="@string/settings"
         app:titleTextColor="@color/text_primary" />
 
@@ -31,9 +31,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/neon_card_background"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp">
+                android:background="@drawable/vibration_card_background"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -86,9 +86,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/neon_card_background"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp">
+                android:background="@drawable/difficulty_card_background"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -155,9 +155,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/neon_card_background"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp">
+                android:background="@drawable/stats_card_background"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -197,13 +197,27 @@
             </androidx.cardview.widget.CardView>
 
             <!-- Reset Button -->
-            <Button
-                android:id="@+id/resetButton"
-                style="@style/GameButton"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Reset High Score"
-                android:layout_marginTop="16dp" />
+                android:layout_marginTop="16dp"
+                android:background="@drawable/reset_button_background"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
+
+                <Button
+                    android:id="@+id/resetButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Reset High Score"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-medium" />
+
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
