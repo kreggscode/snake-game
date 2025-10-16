@@ -155,10 +155,6 @@ fabric.properties
 ehthumbs.db
 Thumbs.db
 
-# Custom audio files (replace placeholders)
-app/src/main/res/raw/*.ogg
-app/src/main/res/raw/*.mp3
-app/src/main/res/raw/*.wav
 
 # Screenshots and media files
 *.png

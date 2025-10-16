@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Neon Colors -->
+    <color name="primary">#FF00FF</color>
+    <color name="primary_dark">#CC00CC</color>
+    <color name="primary_light">#FF33FF</color>
+    <color name="accent">#00FFFF</color>
+    <color name="accent_dark">#00CCCC</color>
+
+    <!-- Background Colors - Dark with Neon Accents -->
+    <color name="background_dark">#000011</color>
+    <color name="background_medium">#001122</color>
+    <color name="background_light">#002244</color>
+    <color name="background_gradient_start">#000011</color>
+    <color name="background_gradient_end">#001122</color>
+
+    <!-- Neon Snake Colors -->
+    <color name="snake_head">#00FFFF</color>
+    <color name="snake_body">#00CCCC</color>
+    <color name="snake_body_gradient">#009999</color>
+    <color name="snake_glow">#33FFFF</color>
+    <color name="snake_shadow">#004444</color>
+
+    <!-- Neon Food Colors -->
+    <color name="food_primary">#FF00FF</color>
+    <color name="food_secondary">#FF33FF</color>
+    <color name="food_glow">#FF66FF</color>
+    <color name="food_inner">#CC00CC</color>
+
+    <!-- Neon UI Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CCCCFF</color>
+    <color name="button_background">#FF00FF</color>
+    <color name="button_pressed">#CC00CC</color>
+    <color name="button_glow">#FF33FF</color>
+    <color name="card_background">#001133</color>
+    <color name="card_glow">#003366</color>
+
+    <!-- Neon Special Effects -->
+    <color name="particle_effect">#00FFFF</color>
+    <color name="particle_glow">#33FFFF</color>
+    <color name="score_glow">#FFFF00</color>
+    <color name="game_over_overlay">#88000022</color>
+
+    <!-- Neon Grid Colors -->
+    <color name="grid_line">#004466</color>
+    <color name="grid_line_bright">#006688</color>
+    <color name="grid_glow">#00AAAA</color>
+
+    <!-- Neon Difficulty Colors -->
+    <color name="easy_neon">#00FF00</color>
+    <color name="medium_neon">#FFFF00</color>
+    <color name="hard_neon">#FF6600</color>
+    <color name="expert_neon">#FF0000</color>
+
+    <!-- Neon Control Colors -->
+    <color name="control_background">#002244</color>
+    <color name="control_border">#00FFFF</color>
+    <color name="control_glow">#33FFFF</color>
+</resources>

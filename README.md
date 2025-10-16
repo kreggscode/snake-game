@@ -59,12 +59,12 @@
 
 </div>
 
-### 🎵 **Audio & Haptics System**
-- 🎼 **Immersive background music** with looping soundtrack
-- 🔊 **Dynamic sound effects** for eating food and game over events
-- 🎚️ **Advanced volume controls** with real-time adjustment
-- 📳 **Tactile vibration feedback** for enhanced gaming experience
+### 📳 **Haptic Feedback System**
+- 📳 **Advanced vibration feedback** for game interactions
 - ⚡ **Adjustable vibration intensity** for personalized feel
+- 🎮 **Tactile responses** for eating food and game over events
+- 🔧 **Customizable vibration settings** through preferences
+- 📱 **Device vibration patterns** for enhanced immersion
 
 ### ⚙️ **Advanced Customization**
 <div align="center">
@@ -135,34 +135,43 @@
 
 ---
 
-## 📁 **Project Structure**
+## 📁 **Project Architecture**
 
 <div align="center">
 
 ```
-📦 Snake Master - Neon Snake Game
+🎮 Snake Master - Ultimate Neon Snake Game
 ├── 📱 app/
-│   ├── 📋 build.gradle                    # App-level build configuration
+│   ├── 📋 build.gradle                 # App-level build configuration
 │   └── 📂 src/main/
-│       ├── 📄 AndroidManifest.xml          # App permissions & config
+│       ├── 📄 AndroidManifest.xml       # App permissions & configuration
 │       ├── 💻 java/com/kreggscode/snakegame/
-│       │   ├── 🎮 MainActivity.kt         # Main game activity
-│       │   ├── 🎨 SnakeGameView.kt        # Custom game rendering
-│       │   └── ⚙️ SettingsActivity.kt     # Settings screen
+│       │   ├── 🎮 MainActivity.kt      # Main game activity & lifecycle
+│       │   ├── 🎨 SnakeGameView.kt     # Custom SurfaceView game renderer
+│       │   └── ⚙️ SettingsActivity.kt  # Settings & preferences screen
 │       └── 🎨 res/
-│           ├── 🎯 drawable/               # Neon drawables & backgrounds
-│           ├── 📐 layout/                 # Activity layouts
-│           ├── 🖼️ mipmap-anydpi-v26/      # Adaptive launcher icons
-│           ├── 🔊 raw/                    # Audio files (placeholders)
-│           └── 🎨 values/                 # Colors, strings, themes
-├── ⚙️ build.gradle                        # Project build configuration
-├── 📋 gradle.properties                   # Gradle settings
-├── ⚙️ settings.gradle                     # Project settings
-├── 🚫 .gitignore                         # Git ignore rules
-└── 📖 README.md                           # Project documentation
+│           ├── 🎯 drawable/            # Neon-themed drawables & backgrounds
+│           ├── 📐 layout/              # XML layout files for activities
+│           ├── 🖼️ mipmap-anydpi-v26/   # Adaptive launcher icons
+│           └── 🎨 values/              # Colors, strings, themes & styles
+├── ⚙️ build.gradle                     # Root project build configuration
+├── 📋 gradle.properties                # Gradle build properties
+├── ⚙️ settings.gradle                  # Project settings & modules
+├── 🚫 .gitignore                      # Git ignore patterns
+└── 📖 README.md                        # Project documentation
 ```
 
 </div>
+
+### 🏗️ **Architecture Overview**
+
+| Component | Purpose | Technology |
+|:---------:|:-------:|:----------:|
+| **🎮 MainActivity** | Game lifecycle, UI management, settings | Kotlin + Activity |
+| **🎨 SnakeGameView** | Game rendering, physics, neon effects | SurfaceView + Canvas |
+| **⚙️ SettingsActivity** | User preferences, difficulty levels | Kotlin + SharedPreferences |
+| **🎨 Resources** | UI assets, colors, layouts | Android Resources |
+| **🏗️ Build System** | Dependencies, compilation | Gradle + Kotlin DSL |
 
 ---
 
@@ -188,17 +197,11 @@
 
 </div>
 
-### 🎵 **Audio Assets Setup**
+### 🎨 **Visual Experience Focus**
 
-The app requires the following audio files in `app/src/main/res/raw/`:
+This game is designed as a **pure visual experience** focusing entirely on stunning neon graphics and smooth gameplay. No audio assets are required - just pure visual immersion!
 
-| File | Purpose | Format |
-|:----:|:-------:|:------:|
-| `🎵 background_music.ogg` | Looping soundtrack | OGG/MP3 |
-| `🍎 eat_sound.ogg` | Food consumption SFX | OGG/WAV |
-| `💀 game_over_sound.ogg` | Game over sound effect | OGG/WAV |
-
-> **Note**: Replace placeholder files with your custom audio assets for the full experience.
+> **🎆 Experience gaming through breathtaking visuals alone!**
 
 ---
 
@@ -249,9 +252,9 @@ The app requires the following audio files in `app/src/main/res/raw/`:
 ### 🎵 **Audio Settings**
 | Setting | Options | Description |
 |:-------:|:-------:|:-----------:|
-| **Sound Effects** | **ON/OFF Toggle** | Enable/disable game sounds |
-| **Volume Control** | **0-100% Slider** | Adjust sound effect volume |
-| **Background Music** | **ON/OFF Toggle** | Control looping soundtrack |
+| **Sound Effects** | **Disabled** | Focus on visual experience |
+| **Background Music** | **Disabled** | Pure gaming immersion |
+| **Audio Mode** | **Visual-Only** | No sound distractions |
 
 ### 📳 **Haptic Settings**
 | Setting | Options | Description |
@@ -363,8 +366,8 @@ This isn't just a **Snake game** - it's a **VISUAL MASTERPIECE**! Every element 
 ### 🎯 **Why It's Special**
 - **🎨 Stunning Visuals** - Cyberpunk-inspired neon color palette
 - **⚡ Smooth Performance** - 60 FPS hardware-accelerated rendering
-- **🎵 Immersive Audio** - Dynamic sound effects and background music
-- **📳 Haptic Feedback** - Advanced vibration system
+- **📳 Advanced Haptics** - Immersive vibration feedback system
+- **🎆 Pure Visual Experience** - No audio distractions, pure visual immersion
 - **⚙️ Deep Customization** - Extensive settings and difficulty options
 
 ---
