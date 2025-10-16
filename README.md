@@ -331,8 +331,6 @@ We welcome contributions! Here's how you can help:
 
 ## 🎆 **🎮 NEON GAMING EXPERIENCE 🎮**
 
-<div align="center">
-
 # 🌟 **VISUAL SPECTACLE** 🌟
 
 This isn't just a **Snake game** - it's a **VISUAL MASTERPIECE**! Every element glows with **intense neon colors**:
@@ -355,24 +353,22 @@ This isn't just a **Snake game** - it's a **VISUAL MASTERPIECE**! Every element 
 
 ## 🏆 **Experience Gaming Like Never Before!**
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/🎮-PLAY-NOW-FF00FF?style=for-the-badge&logo=game&logoColor=white"/>
   <img src="https://img.shields.io/badge/⭐-STAR-THIS-REPO-FFFF00?style=for-the-badge&logo=github&logoColor=black"/>
   <img src="https://img.shields.io/badge/🚀-DOWNLOAD-NOW-00FFFF?style=for-the-badge&logo=android&logoColor=black"/>
-</p>
+</div>
 
 ### 🎪 **Join the Neon Revolution**
 Transform your mobile gaming experience with **Snake Master** - the most visually stunning Snake game ever created!
 
 ---
 
-<p align="center">
+<div align="center">
   <strong>Made with ❤️ by <a href="https://github.com/kreggscode">kreggscode</a></strong><br>
   <em>"Where Classic Gaming Meets Neon Future"</em>
-</p>
+</div>
 
 <div align="center">
 🐍✨💫🌈🎮🎆🔥
-</div>
-
 </div>
