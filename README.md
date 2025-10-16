@@ -41,7 +41,6 @@
 - ✅ Real-time score and level tracking
 
 ### 🎨 **INCREDIBLE NEON VISUAL EXCELLENCE**
-<div align="center">
 
 #### 🌈 **Cyberpunk Color Palette**
 | Primary | Secondary | Accent | Glow |
@@ -56,8 +55,6 @@
 - 🔥 **NEON GLOWING BUTTONS** with layered backgrounds and shadow effects
 - 💫 **NEON DIFFICULTY INDICATORS** with color-coded levels
 - 🌈 **NEON UI ELEMENTS** with glowing cards, text shadows, and cyberpunk styling
-
-</div>
 
 ### 📳 **Haptic Feedback System**
 - 📳 **Advanced vibration feedback** for game interactions
@@ -270,8 +267,6 @@ This game is designed as a **pure visual experience** focusing entirely on stunn
 
 ## 🛠️ **Development & Technical Notes**
 
-<div align="center">
-
 ### 💻 **Code Quality Standards**
 - ✅ **Kotlin First** - Modern Android development with Kotlin 1.9.10
 - ✅ **Clean Architecture** - Separation of concerns and modular design
@@ -290,13 +285,9 @@ This game is designed as a **pure visual experience** focusing entirely on stunn
 - 🎨 **Theme System** - Ready for additional color schemes
 - 📊 **Statistics Framework** - Extensible metrics and achievements
 
-</div>
-
 ---
 
 ## 🚀 **Roadmap & Future Enhancements**
-
-<div align="center">
 
 ### 🎯 **Planned Features**
 | Feature | Status | Priority |
@@ -312,13 +303,9 @@ This game is designed as a **pure visual experience** focusing entirely on stunn
 ### 💡 **Community Suggestions**
 > Have ideas for new features? [Open an issue](https://github.com/kreggscode/snake-game/issues) or submit a pull request!
 
-</div>
-
 ---
 
 ## 📄 **License & Contributing**
-
-<div align="center">
 
 ### 📋 **License**
 <p>
@@ -339,8 +326,6 @@ We welcome contributions! Here's how you can help:
 - 🐛 **Bug Reports**: [Open an issue](https://github.com/kreggscode/snake-game/issues)
 - 💡 **Feature Requests**: [Open an issue](https://github.com/kreggscode/snake-game/issues)
 - ❓ **Questions**: [Discussions](https://github.com/kreggscode/snake-game/discussions)
-
-</div>
 
 ---
 
