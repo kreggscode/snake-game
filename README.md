@@ -137,31 +137,27 @@
 
 ## 📁 **Project Architecture**
 
-<div align="center">
-
 ```
 🎮 Snake Master - Ultimate Neon Snake Game
 ├── 📱 app/
-│   ├── 📋 build.gradle                 # App-level build configuration
+│   ├── 📋 build.gradle                    # App-level build configuration
 │   └── 📂 src/main/
-│       ├── 📄 AndroidManifest.xml       # App permissions & configuration
+│       ├── 📄 AndroidManifest.xml          # App permissions & configuration
 │       ├── 💻 java/com/kreggscode/snakegame/
-│       │   ├── 🎮 MainActivity.kt      # Main game activity & lifecycle
-│       │   ├── 🎨 SnakeGameView.kt     # Custom SurfaceView game renderer
-│       │   └── ⚙️ SettingsActivity.kt  # Settings & preferences screen
+│       │   ├── 🎮 MainActivity.kt         # Main game activity & lifecycle
+│       │   ├── 🎨 SnakeGameView.kt        # Custom SurfaceView game renderer
+│       │   └── ⚙️ SettingsActivity.kt     # Settings & preferences screen
 │       └── 🎨 res/
-│           ├── 🎯 drawable/            # Neon-themed drawables & backgrounds
-│           ├── 📐 layout/              # XML layout files for activities
-│           ├── 🖼️ mipmap-anydpi-v26/   # Adaptive launcher icons
-│           └── 🎨 values/              # Colors, strings, themes & styles
-├── ⚙️ build.gradle                     # Root project build configuration
-├── 📋 gradle.properties                # Gradle build properties
-├── ⚙️ settings.gradle                  # Project settings & modules
-├── 🚫 .gitignore                      # Git ignore patterns
-└── 📖 README.md                        # Project documentation
+│           ├── 🎯 drawable/               # Neon-themed drawables & backgrounds
+│           ├── 📐 layout/                 # XML layout files for activities
+│           ├── 🖼️ mipmap-anydpi-v26/     # Adaptive launcher icons
+│           └── 🎨 values/                 # Colors, strings, themes & styles
+├── ⚙️ build.gradle                         # Root project build configuration
+├── 📋 gradle.properties                    # Gradle build properties
+├── ⚙️ settings.gradle                       # Project settings & modules
+├── 🚫 .gitignore                           # Git ignore patterns
+└── 📖 README.md                            # Project documentation
 ```
-
-</div>
 
 ### 🏗️ **Architecture Overview**
 
