@@ -77,13 +77,15 @@ class SnakeGameView @JvmOverloads constructor(
 
     // Particle effects
     private val particles = mutableListOf<Particle>()
+    
+    // Initialization flag
+    private var isInitialized = false
 
     init {
         holder.addCallback(this)
         isFocusable = true
 
         setupPaints()
-        initializeGame()
     }
 
     private fun setupPaints() {
@@ -123,6 +125,10 @@ class SnakeGameView @JvmOverloads constructor(
 
     override fun surfaceChanged(holder: SurfaceHolder, format: Int, width: Int, height: Int) {
         calculateDimensions(width, height)
+        if (!isInitialized) {
+            initializeGame()
+            isInitialized = true
+        }
     }
 
     override fun surfaceDestroyed(holder: SurfaceHolder) {
