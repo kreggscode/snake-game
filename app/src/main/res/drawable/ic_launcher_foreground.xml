@@ -15,37 +15,37 @@
     <!-- Snake eyes -->
     <circle
         android:fillColor="#FFFFFF"
-        android:radius="3"
+        android:radius="3dp"
         android:centerX="48"
         android:centerY="32" />
     <circle
         android:fillColor="#FFFFFF"
-        android:radius="3"
+        android:radius="3dp"
         android:centerX="60"
         android:centerY="32" />
     <!-- Snake body segments -->
     <rect
         android:fillColor="@color/snake_body"
-        android:width="12"
-        android:height="8"
+        android:width="12dp"
+        android:height="8dp"
         android:centerX="32"
         android:centerY="35" />
     <rect
         android:fillColor="@color/snake_body"
-        android:width="12"
-        android:height="8"
+        android:width="12dp"
+        android:height="8dp"
         android:centerX="20"
         android:centerY="35" />
     <rect
         android:fillColor="@color/snake_body"
-        android:width="12"
-        android:height="8"
+        android:width="12dp"
+        android:height="8dp"
         android:centerX="8"
         android:centerY="35" />
     <!-- Food -->
     <circle
         android:fillColor="@color/food_primary"
-        android:radius="4"
+        android:radius="4dp"
         android:centerX="75"
         android:centerY="45" />
   </group>
